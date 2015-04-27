@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PAMobile</string>
+    <string name="menu_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="selayang_pandang_btn">Selayang Pandang</string>
+    <string name="produk_unggulan_btn">Produk Unggulan</string> 
+    <string name="pertanian_btn">Pertanian</string>
+    <string name="peternakan_btn">Peternakan</string>
+    <string name="perikanan_btn">Perikanan</string>
+    <string name="perdagangan_btn">Perdagangan</string>    
+    <string name="perindustrian_btn">Perindustrian</string>
+    <string name="pariwisata_btn">Ppariwisata</string>        
+    <string name="keluar_btn">Keluar</string>
+
+</resources>

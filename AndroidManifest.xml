@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.susisiswati.pamobile"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="12"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo_kendal"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.susisiswati.pamobile.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />      
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.susisiswati.pamobile.KategoriActivity"
+            android:label="Produk Unggulan" >           
+        	<intent-filter>
+        	    <action android:name="android.intent.action.View" />
+        	    <category android:name="android.intent.category.DEFAULT" />
+        	</intent-filter>      	
+        </activity>
+        
+        <activity
+            android:name="com.susisiswati.pamobile.listviewIcon.MainActivity"
+            android:label="@string/app_name" >           
+        	<intent-filter>
+        	    <action android:name="android.intent.action.View" />
+        	    <category android:name="android.intent.category.DEFAULT" />
+        	</intent-filter>      	
+        </activity>
+        
+        <activity
+            android:name="com.susisiswati.pamobile.SPActivity"
+            android:label="Selayang Pandang" >	
+        </activity>
+        <activity
+            android:name="com.susisiswati.pamobile.SPTab1Activity"
+            android:label="Selayang Pandang" >
+        </activity>
+        <activity
+            android:name="com.susisiswati.pamobile.SPTab2Activity"
+            android:label="Selayang Pandang" >
+        </activity>
+        <activity
+            android:name="com.susisiswati.pamobile.HKActivity"
+            android:label="Hubungi Kami" >     	
+        </activity>       
+        <activity
+            android:name="com.susisiswati.pamobile.PertanianActivity"
+            android:label="Pertanian" >
+        </activity>  
+        <activity
+            android:name="com.susisiswati.pamobile.PeternakanActivity"
+            android:label="Peternakan" >
+        </activity>   
+        <activity
+            android:name="com.susisiswati.pamobile.PerikananActivity"
+            android:label="Perikanan" >
+        </activity>
+        <activity
+            android:name="com.susisiswati.pamobile.PariwisataActivity"
+            android:label="Pariwisata" >
+        </activity>           
+        <activity
+            android:name="com.susisiswati.pamobile.JambuActivity"
+            android:label="Pertanian > Jambu Biji Merah" >
+        </activity>
+        <activity
+            android:name="com.susisiswati.pamobile.JambuTab1Activity"
+            android:label="Pertanian > Jambu Biji Merah" >
+        </activity>
+        <activity
+            android:name="com.susisiswati.pamobile.JambuTab2Activity"
+            android:label="Pertanian > Jambu Biji Merah" >
+        </activity> 
+        <activity
+            android:name="com.susisiswati.pamobile.JambuTab3Activity"
+            android:label="Pertanian > Jambu Biji Merah" >
+        </activity>        
+        <activity
+            android:name="com.susisiswati.pamobile.PisangActivity"
+            android:label="Pertanian > Pisang Raja Bulu" >
+        </activity>
+        <activity
+            android:name="com.susisiswati.pamobile.PisangTab1Activity"
+            android:label="Pertanian > Pisang Raja Bulu" >
+        </activity>
+        <activity
+            android:name="com.susisiswati.pamobile.PisangTab2Activity"
+            android:label="Pertanian > Pisang Raja Bulu" >
+        </activity> 
+        <activity
+            android:name="com.susisiswati.pamobile.PisangTab3Activity"
+            android:label="Pertanian > Pisang Raja Bulu" >
+        </activity>
+        <activity
+            android:name="com.susisiswati.pamobile.SapiActivity"
+            android:label="Peternakan > Sapi Perah" >
+        </activity>
+        <activity
+            android:name="com.susisiswati.pamobile.SapiTab1Activity"
+            android:label="Peternakan > Sapi Perah" >
+        </activity>
+        <activity
+            android:name="com.susisiswati.pamobile.SapiTab2Activity"
+            android:label="Peternakan > Sapi Perah" >
+        </activity> 
+        <activity
+            android:name="com.susisiswati.pamobile.SapiTab3Activity"
+            android:label="Peternakan > Sapi Perah" >
+        </activity>
+        <activity
+            android:name="com.susisiswati.pamobile.KambingActivity"
+            android:label="Peternakan > Kambing" >
+        </activity>
+        <activity
+            android:name="com.susisiswati.pamobile.KambingTab1Activity"
+            android:label="Peternakan > Kambing" >
+        </activity>
+        <activity
+            android:name="com.susisiswati.pamobile.KambingTab2Activity"
+            android:label="Peternakan > Kambing" >
+        </activity> 
+        <activity
+            android:name="com.susisiswati.pamobile.KambingTab3Activity"
+            android:label="Peternakan > Kambing" >
+        </activity>
+        <activity
+            android:name="com.susisiswati.pamobile.BandengActivity"
+            android:label="Perikanan > Bandeng" >
+        </activity>
+        <activity
+            android:name="com.susisiswati.pamobile.BandengTab1Activity"
+            android:label="Perikanan > Bandeng" >
+        </activity>
+        <activity
+            android:name="com.susisiswati.pamobile.BandengTab2Activity"
+            android:label="Perikanan > Bandeng" >
+        </activity>
+        <activity
+            android:name="com.susisiswati.pamobile.BandengTab3Activity"
+            android:label="Perikanan > Bandeng" >
+        </activity>
+        <activity
+            android:name="com.susisiswati.pamobile.UdangActivity"
+            android:label="Perikanan > Udang" >
+        </activity>
+        <activity
+            android:name="com.susisiswati.pamobile.UdangTab1Activity"
+            android:label="Perikanan > Udang" >
+        </activity>
+        <activity
+            android:name="com.susisiswati.pamobile.UdangTab2Activity"
+            android:label="Perikanan > Udang" >
+        </activity> 
+        <activity
+            android:name="com.susisiswati.pamobile.UdangTab3Activity"
+            android:label="Perikanan > Udang" >
+        </activity>        
+        <activity
+            android:name="com.susisiswati.pamobile.BlumahActivity"
+            android:label="Pariwisata > Blumah" >
+        </activity>
+        <activity
+            android:name="com.susisiswati.pamobile.BlumahTab1Activity"
+            android:label="Pariwisata > Blumah" >
+        </activity>
+        <activity
+            android:name="com.susisiswati.pamobile.BlumahTab2Activity"
+            android:label="Pariwisata > Blumah" >
+        </activity> 
+        <activity
+            android:name="com.susisiswati.pamobile.BlumahTab3Activity"
+            android:label="Pariwisata > Blumah" >
+        </activity>        
+        <activity
+            android:name="com.susisiswati.pamobile.MangroveActivity"
+            android:label="Pariwisata > Mangrove" >
+        </activity>
+        <activity
+            android:name="com.susisiswati.pamobile.MangroveTab1Activity"
+            android:label="Pariwisata > Mangrove" >
+        </activity>
+        <activity
+            android:name="com.susisiswati.pamobile.MangroveTab2Activity"
+            android:label="Pariwisata > Mangrove" >
+        </activity> 
+        <activity
+            android:name="com.susisiswati.pamobile.MangroveTab3Activity"
+            android:label="Pariwisata > Mangrove" >
+        </activity>         
+    </application>
+</manifest>

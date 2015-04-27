@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="fill_vertical" >
+
+    <ImageView
+        android:id="@+id/imageProdukUnggulan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/produk_unggulan" />
+
+    <Button
+        android:id="@+id/btnSP"
+        android:layout_width="110dp"
+        android:layout_height="147dp"
+        android:layout_alignLeft="@+id/imageProdukUnggulan"
+        android:layout_below="@+id/imageProdukUnggulan"
+        android:background="@drawable/button_sp" />
+    
+    <Button
+        android:id="@+id/btnPU"
+        android:layout_width="110dp"
+        android:layout_height="147dp"
+        android:layout_below="@+id/imageProdukUnggulan"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_pu" />
+
+    <Button
+        android:id="@+id/btnHK"
+        android:layout_width="110dp"
+        android:layout_height="147dp"
+        android:layout_alignRight="@+id/imageProdukUnggulan"
+        android:layout_below="@+id/imageProdukUnggulan"
+        android:background="@drawable/button_hk" />
+</RelativeLayout>
