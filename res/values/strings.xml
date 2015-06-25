@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">PAMobile</string>
+    <string name="app_name">KENDAL</string>
     <string name="menu_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
     <string name="selayang_pandang_btn">Selayang Pandang</string>
@@ -13,5 +13,14 @@
     <string name="perindustrian_btn">Perindustrian</string>
     <string name="pariwisata_btn">Ppariwisata</string>        
     <string name="keluar_btn">Keluar</string>
+    <string name="urlServer">http://localhost/pudkendal/jambu.php</string>
+    <string name="urlJambu">http://susisiswati.web44.net/jambu.php</string>
+    <string name="urlPisang">http://susisiswati.web44.net/pisang.php</string>
+    <string name="urlSapi">http://susisiswati.web44.net/sapi.php</string>
+    <string name="urlKambing">http://susisiswati.web44.net/kambing.php</string>
+    <string name="urlBandeng">http://susisiswati.web44.net/bandeng.php</string>
+    <string name="urlUdang">http://susisiswati.web44.net/udang.php</string>
+    <string name="urlBlumah">http://susisiswati.web44.net/blumah.php</string>
+    <string name="urlMangrove">http://susisiswati.web44.net/mangrove.php</string>
 
 </resources>

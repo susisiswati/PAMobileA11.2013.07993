@@ -7,7 +7,7 @@ import android.widget.TextView;
 public class PisangTab3Activity extends Activity {
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_jambu_tab3);
+		setContentView(R.layout.activity_produk_tab3);
 		
 		TextView textview = new TextView(this);
 		textview.setText("Tab 3");

@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
+    android:gravity="center_vertical"
     android:orientation="vertical" >
-</LinearLayout>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:gravity="left|right"
+        android:text="Kebijakan pembangunan daerah dalam rangka era otonomi adalah dalam rangka mempercepat peningkatan kesejahteraan rakyat, tatanan sosial yang demokratis dan penyelenggaraan pemerintah yang amanah. Pembangunan daerah dilaksanakan secara bertahap dengan tujuan agar kontinuitas pembangunan dapat diselesaikan secara tuntas.
+\nSelanjutnya untuk mengenalkan dan mendorong pengembangan potensi daerah dan peningkatan iklim investasi di Kabupaten Kendal, kami sajikan media Pengembangan Produk Unggulan Daerah Kabupaten Kendal sebagai bahan informasi.
+Dengan media ini dapat diperoleh segala macam potensi yang dimiliki dan siap untuk dipergunakan sebagai lahan pengembangan proyek investasi.
+" />
+
+</RelativeLayout>

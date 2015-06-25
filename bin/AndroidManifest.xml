@@ -8,6 +8,10 @@
         android:minSdkVersion="12"
         android:targetSdkVersion="17" />
 
+    <!-- Internet permission -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    
     <application
         android:allowBackup="true"
         android:icon="@drawable/logo_kendal"
@@ -81,6 +85,10 @@
             android:label="Pertanian > Jambu Biji Merah" >
         </activity>
         <activity
+            android:name="com.susisiswati.pamobile.JambuTab1LokalActivity"
+            android:label="Pertanian > Jambu Biji Merah" >
+        </activity>
+        <activity
             android:name="com.susisiswati.pamobile.JambuTab2Activity"
             android:label="Pertanian > Jambu Biji Merah" >
         </activity> 
@@ -94,6 +102,10 @@
         </activity>
         <activity
             android:name="com.susisiswati.pamobile.PisangTab1Activity"
+            android:label="Pertanian > Pisang Raja Bulu" >
+        </activity>
+                <activity
+            android:name="com.susisiswati.pamobile.PisangTab1LokalActivity"
             android:label="Pertanian > Pisang Raja Bulu" >
         </activity>
         <activity
@@ -112,6 +124,10 @@
             android:name="com.susisiswati.pamobile.SapiTab1Activity"
             android:label="Peternakan > Sapi Perah" >
         </activity>
+                <activity
+            android:name="com.susisiswati.pamobile.SapiTab1LokalActivity"
+            android:label="Peternakan > Sapi Perah" >
+        </activity>
         <activity
             android:name="com.susisiswati.pamobile.SapiTab2Activity"
             android:label="Peternakan > Sapi Perah" >
@@ -126,6 +142,10 @@
         </activity>
         <activity
             android:name="com.susisiswati.pamobile.KambingTab1Activity"
+            android:label="Peternakan > Kambing" >
+        </activity>
+                <activity
+            android:name="com.susisiswati.pamobile.KambingTab1LokalActivity"
             android:label="Peternakan > Kambing" >
         </activity>
         <activity
@@ -144,6 +164,10 @@
             android:name="com.susisiswati.pamobile.BandengTab1Activity"
             android:label="Perikanan > Bandeng" >
         </activity>
+                <activity
+            android:name="com.susisiswati.pamobile.BandengTab1LokalActivity"
+            android:label="Perikanan > Bandeng" >
+        </activity>
         <activity
             android:name="com.susisiswati.pamobile.BandengTab2Activity"
             android:label="Perikanan > Bandeng" >
@@ -158,6 +182,10 @@
         </activity>
         <activity
             android:name="com.susisiswati.pamobile.UdangTab1Activity"
+            android:label="Perikanan > Udang" >
+        </activity>
+                <activity
+            android:name="com.susisiswati.pamobile.UdangTab1LokalActivity"
             android:label="Perikanan > Udang" >
         </activity>
         <activity
@@ -176,6 +204,10 @@
             android:name="com.susisiswati.pamobile.BlumahTab1Activity"
             android:label="Pariwisata > Blumah" >
         </activity>
+                <activity
+            android:name="com.susisiswati.pamobile.BlumahTab1LokalActivity"
+            android:label="Pariwisata > Blumah" >
+        </activity>
         <activity
             android:name="com.susisiswati.pamobile.BlumahTab2Activity"
             android:label="Pariwisata > Blumah" >
@@ -192,6 +224,10 @@
             android:name="com.susisiswati.pamobile.MangroveTab1Activity"
             android:label="Pariwisata > Mangrove" >
         </activity>
+                <activity
+            android:name="com.susisiswati.pamobile.MangroveTab1LokalActivity"
+            android:label="Pariwisata > Mangrove" >
+        </activity>
         <activity
             android:name="com.susisiswati.pamobile.MangroveTab2Activity"
             android:label="Pariwisata > Mangrove" >
@@ -199,6 +235,6 @@
         <activity
             android:name="com.susisiswati.pamobile.MangroveTab3Activity"
             android:label="Pariwisata > Mangrove" >
-        </activity>         
+        </activity>        
     </application>
 </manifest>

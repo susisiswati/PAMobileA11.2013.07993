@@ -5,16 +5,40 @@
     android:orientation="vertical" >
 
     <FrameLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
-        android:layout_marginTop="10dp" >
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp">
 
         <TextView
-            android:id="@+id/txtHK"
-            android:layout_width="wrap_content"
+            
+            android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:text="Hubungi Kami" />
+            android:gravity="center_vertical|center_horizontal"
+            android:text="
+\nPEMERINTAH KABUPATEN KENDAL
+Badan Penanaman Modal Dan Perijinan Terpadu
+\nJl. Soekarno Hatta No. 193 Kendal
+Telp : (0294) 382 309 / 384 575 | Fax : (0294) 382 309 | Email : bpmpt@kendalkab.go.id
+" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_marginTop="150dp"
+        android:text="
+\nAbd. Salam, SE
+0294 382309 / 08122852106
+\nSuharjo, S.Sos
+08122850587
+\nWiwid Bekti Nugroho, SE
+08156566328
+wiwidbn@yahoo.co.id
+" />
+    
     </FrameLayout>
 </LinearLayout>

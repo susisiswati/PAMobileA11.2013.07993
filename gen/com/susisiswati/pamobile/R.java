@@ -54,38 +54,48 @@ public final class R {
         public static final int udang_vaname=0x7f020028;
     }
     public static final class id {
-        public static final int btnHK=0x7f070008;
-        public static final int btnPU=0x7f070007;
-        public static final int btnSP=0x7f070006;
-        public static final int imageMap=0x7f070009;
-        public static final int imageProdukUnggulan=0x7f070005;
-        public static final int label=0x7f07000b;
-        public static final int logo=0x7f07000a;
-        public static final int menu_home=0x7f07000c;
-        public static final int menu_settings=0x7f07000d;
+        public static final int LinearLayout=0x7f07000b;
+        public static final int btnHK=0x7f07000a;
+        public static final int btnPU=0x7f070009;
+        public static final int btnSP=0x7f070008;
+        public static final int imageMap=0x7f07000d;
+        public static final int imageProdukUnggulan=0x7f070007;
+        public static final int label=0x7f07000f;
+        public static final int logo=0x7f07000e;
+        public static final int menu_home=0x7f070011;
+        public static final int menu_settings=0x7f070012;
         public static final int pariwisata_btn=0x7f070004;
         public static final int perikanan_btn=0x7f070003;
         public static final int pertanian_btn=0x7f070001;
         public static final int peternakan_btn=0x7f070002;
-        public static final int txtHK=0x7f070000;
+        public static final int textView1=0x7f070000;
+        public static final int txtLstNama=0x7f070005;
+        public static final int txtLstNilai=0x7f070006;
+        public static final int txtwisata=0x7f070010;
+        public static final int wisatalist=0x7f07000c;
     }
     public static final class layout {
         public static final int activity_hk=0x7f030000;
         public static final int activity_jambu=0x7f030001;
-        public static final int activity_jambu_tab1=0x7f030002;
-        public static final int activity_jambu_tab2=0x7f030003;
-        public static final int activity_jambu_tab3=0x7f030004;
-        public static final int activity_kategori=0x7f030005;
-        public static final int activity_main=0x7f030006;
-        public static final int activity_sp=0x7f030007;
-        public static final int activity_sp_tab1=0x7f030008;
-        public static final int activity_sp_tab2=0x7f030009;
-        public static final int activity_sublist=0x7f03000a;
+        public static final int activity_kategori=0x7f030002;
+        public static final int activity_list_produk=0x7f030003;
+        public static final int activity_main=0x7f030004;
+        public static final int activity_pisang=0x7f030005;
+        public static final int activity_produk_tab1=0x7f030006;
+        public static final int activity_produk_tab1lokal=0x7f030007;
+        public static final int activity_produk_tab2=0x7f030008;
+        public static final int activity_produk_tab3=0x7f030009;
+        public static final int activity_sp=0x7f03000a;
+        public static final int activity_sp_tab1=0x7f03000b;
+        public static final int activity_sp_tab2=0x7f03000c;
+        public static final int activity_sublist=0x7f03000d;
+        public static final int row=0x7f03000e;
     }
     public static final class menu {
         public static final int activity_kategori=0x7f060000;
         public static final int activity_main=0x7f060001;
         public static final int activity_sp=0x7f060002;
+        public static final int activity_view=0x7f060003;
     }
     public static final class string {
         public static final int app_name=0x7f040000;
@@ -100,6 +110,15 @@ public final class R {
         public static final int peternakan_btn=0x7f040006;
         public static final int produk_unggulan_btn=0x7f040004;
         public static final int selayang_pandang_btn=0x7f040003;
+        public static final int urlBandeng=0x7f040011;
+        public static final int urlBlumah=0x7f040013;
+        public static final int urlJambu=0x7f04000d;
+        public static final int urlKambing=0x7f040010;
+        public static final int urlMangrove=0x7f040014;
+        public static final int urlPisang=0x7f04000e;
+        public static final int urlSapi=0x7f04000f;
+        public static final int urlServer=0x7f04000c;
+        public static final int urlUdang=0x7f040012;
     }
     public static final class style {
         /**  ActionBar styles 
